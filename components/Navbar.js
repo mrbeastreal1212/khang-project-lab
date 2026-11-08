@@ -5,7 +5,7 @@ export default function Navbar() {
     <header className="navbar-container">
       <nav className="navbar">
         <Link href="/" className="nav-brand">
-          {"TESTING"}
+          {"Web cua tui"}
         </Link>
         <div className="nav-links">
           <Link href="/" className="nav-link">
