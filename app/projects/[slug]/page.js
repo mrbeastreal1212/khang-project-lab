@@ -2,8 +2,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { projects } from "@/data/projects";
 
-export const instant = false;
-
 export async function generateStaticParams() {
   return projects.map((project) => ({
     slug: project.slug,
